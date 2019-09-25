@@ -79,6 +79,7 @@ public class WebViewActivity extends Activity {
     webview.getSettings().setDomStorageEnabled(enableDomStorage);
     webview.getSettings().setUseWideViewPort(true);
     webview.getSettings().setBuiltInZoomControls(true);
+    webview.setInitialScale(1);
 
     // Open new urls inside the webview itself.
     webview.setWebViewClient(webViewClient);
