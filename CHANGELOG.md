@@ -1,3 +1,113 @@
+## 5.5.0
+
+* Support Linux by default.
+
+## 5.4.11
+
+* Add documentation in README suggesting how to properly encode urls with special characters.
+
+## 5.4.10
+
+* Post-v2 Android embedding cleanups.
+
+## 5.4.9
+
+* Update README.
+
+## 5.4.8
+
+* Initialize `previousAutomaticSystemUiAdjustment` in launch method.
+
+## 5.4.7
+
+* Update lower bound of dart dependency to 2.1.0.
+
+## 5.4.6
+
+* Add `web` to the example app.
+
+## 5.4.5
+
+* Remove Android dependencies fallback.
+* Require Flutter SDK 1.12.13+hotfix.5 or greater.
+* Fix CocoaPods podspec lint warnings.
+
+## 5.4.4
+
+* Replace deprecated `getFlutterEngine` call on Android.
+
+## 5.4.3
+
+* Fixed the launchUniversalLinkIos method.
+
+## 5.4.2
+
+* Make the pedantic dev_dependency explicit.
+
+## 5.4.1
+
+* Update unit tests to work with the PlatformInterface from package `plugin_platform_interface`.
+
+## 5.4.0
+
+* Support macOS by default.
+
+## 5.3.0
+
+* Support web by default.
+* Use the new plugins pubspec schema.
+
+## 5.2.7
+
+* Minor unit test changes and added a lint for public DartDocs.
+
+## 5.2.6
+
+*  Remove AndroidX warnings.
+
+## 5.2.5
+
+* Include lifecycle dependency as a compileOnly one on Android to resolve
+  potential version conflicts with other transitive libraries.
+
+## 5.2.4
+
+* Use `package:url_launcher_platform_interface` to get the platform-specific implementation.
+
+## 5.2.3
+
+* Android: Use android.arch.lifecycle instead of androidx.lifecycle:lifecycle in `build.gradle` to support apps that has not been migrated to AndroidX.
+
+## 5.2.2
+
+* Re-land embedder v2 support with correct Flutter SDK constraints.
+
+## 5.2.1
+
+* Revert the migration since the Flutter dependency was too low.
+
+## 5.2.0
+
+* Migrate the plugin to use the V2 Android engine embedding. This shouldn't
+  affect existing functionality. Plugin authors who use the V2 embedding can now
+  instantiate the plugin and expect that it correctly responds to app lifecycle
+  changes.
+
+## 5.1.7
+
+* Define clang module for iOS.
+
+## 5.1.6
+
+* Fixes bug where androidx app won't build with this plugin by enabling androidx and jetifier in the android `gradle.properties`.
+
+## 5.1.5
+
+* Update homepage url after moving to federated directory.
+
+## 5.1.4
+
+* Update and migrate iOS example project.
 
 ## 5.1.3
 
