@@ -1,6 +1,7 @@
 # url_launcher
 
-##Fork of url_launcher that enables zoom controls and defaults to zoomed out view.  Parent url_launcher package was zooming in on images when opening.
+## Fork of url_launcher that enables zoom controls and defaults to zoomed out view.  Parent url_launcher package was zooming in on images when opening.
+
 A Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
 
 ## Usage
